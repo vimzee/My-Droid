@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/full_screen"
+    android:layout_width="fill_parent"
+    android:background="#A0A0A0"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/textview_margin_top"
+        android:layout_marginBottom="@dimen/textview_margin_bottom"
+        android:textSize="20sp"
+        android:textColor="@android:color/primary_text_dark"
+        android:textStyle="italic"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:text="@string/allow_sharing" />
+
+    <CheckBox
+        android:id="@+id/check_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/checkbox_bottom_margin"
+        android:layout_below="@+id/textView1"
+        android:paddingLeft="@dimen/checkbox_padding_left"
+        android:text="@string/contacts"
+        android:checked="false" />
+    <CheckBox
+        android:id="@+id/check_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="0dp"
+        android:layout_below="@+id/check_contact"
+        android:paddingLeft="8dp"
+        android:text="@string/location"
+        />
+
+
+    <CheckBox
+        android:id="@+id/check_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/checkbox_bottom_margin"
+        android:layout_below="@+id/check_location"
+        android:paddingLeft="@dimen/checkbox_padding_left"
+        android:text="@string/call_log" />
+
+    <CheckBox
+        android:id="@+id/check_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/checkbox_bottom_margin"
+        android:layout_below="@+id/check_log"
+        android:paddingLeft="@dimen/checkbox_padding_left"
+        android:text="@string/messages" />
+
+    <CheckBox
+        android:id="@+id/check_clip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/checkbox_bottom_margin"
+        android:layout_below="@+id/check_msg"
+        android:paddingLeft="@dimen/checkbox_padding_left"
+        android:text="@string/clipboard" />
+
+    <CheckBox
+        android:id="@+id/check_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/checkbox_bottom_margin"
+        android:layout_below="@+id/check_clip"
+        android:paddingLeft="@dimen/checkbox_padding_left"
+        android:text="@string/sound_profile" />
+    <CheckBox
+        android:id="@+id/check_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/checkbox_bottom_margin"
+        android:layout_below="@+id/check_profile"
+        android:paddingLeft="@dimen/checkbox_padding_left"
+        android:text="@string/lock" />
+    <CheckBox
+        android:id="@+id/check_beep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/checkbox_bottom_margin"
+        android:layout_below="@+id/check_lock"
+        android:paddingLeft="@dimen/checkbox_padding_left"
+        android:text="@string/beep" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="saveSettings"
+        android:text="@string/save_settings" />
+
+    <CheckBox
+        android:id="@+id/check_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:text="" />
+	
+</RelativeLayout>

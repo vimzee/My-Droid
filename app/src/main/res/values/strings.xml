@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Droid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="clipboard">Clipboard</string>
+    <string name="messages">Messages</string>
+    <string name="call_log">Call Log</string>
+    <string name="location">Location</string>
+    <string name="contacts">Contacts</string>
+    <string name="allow_sharing">Allow Sharing following data</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="sound_profile">Sound Profile</string>
+    <string name="lock">Lock</string>
+    <string name="beep">Beep</string>
+    <string name="help_popup_text_page1">We all have a tendency to forget mobile at home, at work or with freinds. This Application is a gift in such situations. 
+        You can get data from your phone using any other mobile in the world. 
+        Just make a text message and your contacts, call logs, clipboard message will reach you via SMS. In addition, you can change sound profile of your phone. </string>
+    <string name="help_popup_text_page2">To get contacts,</string>
+    <string name="help_popup_text_page2_sms">SMS &quot;Contacts &lt;name&gt; &lt;pwd&gt;&quot;.</string>
+    <string name="help_popup_text_page3">To get logs,</string>
+    <string name="help_popup_text_page3_sms">SMS &quot;Logs &lt;count&gt; &lt;pwd&gt;&quot;.</string>
+    <string name="help_popup_text_page4">To get clipboard text,</string>
+    <string name="help_popup_text_page4_sms">SMS &quot;Clipboard &lt;pwd&gt;&quot;.</string>
+    <string name="help_popup_text_page5">To change Sound Profile,</string>
+    <string name="help_popup_text_page5_sms">SMS &quot;Change Sound &lt;profile&gt; &lt;pwd&gt;&quot;. 
+        Possible values for profile are Silent, Normal and Vibrate.</string>
+    <string name="help_popup_text_page6">To get messages,</string>
+    <string name="help_popup_text_page6_sms1">SMS &quot;Messages Unread &lt;count&gt; &lt;pwd&gt;&quot;.</string>
+    <string name="help_popup_text_page6_sms2">SMS &quot;Messages Last &lt;count&gt; &lt;pwd&gt;&quot;.</string>
+    <string name="help_popup_text_page6_sms3">SMS &quot;Messages Number &lt;count&gt; &lt;pwd&gt;&quot;.</string>
+    <string name="help_popup_text_page7">To get location,</string>
+    <string name="help_popup_text_page7_sms">SMS &quot;Location &lt;pwd&gt;&quot;.</string>
+    <string name="help_popup_text_page8">To set lock,</string>
+    <string name="help_popup_text_page8_sms">SMS &quot;Lock &lt;pwd&gt;&quot;.</string>
+
+    <string name="help">Help</string>
+    <string name="select_unselect_all">Select/Unselect All</string>
+    <string name="next">Next</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_password">Change Password</string>
+    <string name="title_activity_test">TestActivity</string>
+
+</resources>
